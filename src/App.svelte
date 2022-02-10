@@ -11,6 +11,16 @@
 
 	//export let name: string;
 	export let viewState: number;
+	export let currentTab: number;
+
+	if (window.sessionStorage.getItem("currentTab")) {
+		console.log(window.sessionStorage.getItem("currentTab"))
+		currentTab = parseInt(window.sessionStorage.getItem("currentTab"));
+	} else {
+		currentTab = 0
+		window.sessionStorage.setItem("currentTab","0");
+		console.log(window.sessionStorage.getItem("currentTab"))
+	}
 </script>
 
 <main>
@@ -26,27 +36,27 @@
 
 	<BackgroundImage
 		layerNumber={0}
-		image="build/static/bwr_sitting_right.jpg"
+		image="bwr_sitting_right.jpg"
 		{viewState}
 	/>
 	<BackgroundImage
 		layerNumber={1}
-		image="build/static/bwr_sitting_center.jpg"
+		image="bwr_sitting_center.jpg"
 		{viewState}
 	/>
 	<BackgroundImage
 		layerNumber={2}
-		image="build/static/bwr_sitting.jpg"
+		image="bwr_sitting.jpg"
 		{viewState}
 	/>
 	<BackgroundImage
 		layerNumber={3}
-		image="build/static/bwr_no_glasses.jpg"
+		image="bwr_no_glasses.jpg"
 		{viewState}
 	/>
 	<BackgroundImage
 		layerNumber={4}
-		image="build/static/bwr_standing_sweater.jpg"
+		image="bwr_standing_sweater.jpg"
 		{viewState}
 	/>
 

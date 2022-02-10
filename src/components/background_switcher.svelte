@@ -4,17 +4,15 @@
   export let image;
 
   let currentState = 0;
+  let currentBG = 0;
   $: zlayer = "z" + layerNumber;
 
   function changeState(viewState) {
-    console.log(viewState);
-    console.log(typeof zlayer);
     if (viewState === layerNumber) {
       if (viewState === currentState) {
         return "visible";
       } else {
         currentState = viewState;
-        console.log("currenstate = viewstate " + currentState);
         return "show";
       }
     } else {
@@ -23,7 +21,6 @@
         return "hidden";
       } else {
         currentState = viewState;
-        console.log("show " + zlayer);
         return "hide";
       }
     }
