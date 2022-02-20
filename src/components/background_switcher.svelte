@@ -3,8 +3,7 @@
   export let layerNumber = 0;
   export let image;
 
-  let currentState = 0;
-  let currentBG = 0;
+  let currentState = parseInt(window.sessionStorage.getItem("currentState"));
   $: zlayer = "z" + layerNumber;
 
   function changeState(viewState) {
@@ -12,15 +11,12 @@
       if (viewState === currentState) {
         return "visible";
       } else {
-        currentState = viewState;
         return "show";
       }
     } else {
       if (currentState != layerNumber) {
-        currentState = viewState;
         return "hidden";
       } else {
-        currentState = viewState;
         return "hide";
       }
     }

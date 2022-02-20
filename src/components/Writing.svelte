@@ -3,22 +3,19 @@
   // layerNumber is 10 less than the z-index for content layers
   const layerNumber = 1;
 
-  let currentState = 0;
+  let currentState = parseInt(window.sessionStorage.getItem("currentState"));
 
   function changeState(viewState) {
     if (viewState === layerNumber) {
       if (viewState === currentState) {
         return "visible";
       } else {
-        currentState = viewState;
         return "show";
       }
     } else {
       if (currentState != layerNumber) {
-        currentState = viewState;
         return "hidden";
       } else {
-        currentState = viewState;
         return "hide";
       }
     }
@@ -27,30 +24,72 @@
 
 <div id="writing" class={changeState(viewState)}>
   <h1>Things I've written</h1>
+  <h2>Non-fiction</h2>
+  <div class="item">
+    <a
+      href="https://medium.com/english4it/why-articles-matter-a-native-listeners-perspective-1c53de198920"
+    >
+      Why Articles Matter: A Native Listener's Perspective
+    </a> An article I wrote for an English school I was working at. I tried to explain
+    why proper usage of definite and indefinite articles is important in English.
+  </div>
+  <div class="item">
+    <a href="http://workingclasshouses.com"> workingclasshouses.com </a> A blog I
+    kept when I was building a tiny house on a trailer. It's not super polished,
+    and I don't think anyone ever read it, but I'm proud of some of the writing.
+  </div>
   <p>
-    Sesame snaps jelly-o candy muffin sweet. Marzipan gummies bear claw pudding
-    dragée. Chocolate cake cake danish icing bear claw. Soufflé carrot cake
-    macaroon toffee icing cake. Shortbread sugar plum chocolate cake cotton
-    candy sweet soufflé. Brownie sweet chocolate cake wafer brownie toffee
-    pudding sugar plum. Tart tiramisu sweet gingerbread cake tiramisu bear claw.
-    Gummi bears tiramisu toffee caramels powder cake sweet roll carrot cake.
-    Marshmallow danish sweet sugar plum gummi bears biscuit pastry. Jujubes
-    cotton candy sweet tiramisu brownie chocolate bar. Chocolate cake bear claw
-    bear claw danish jelly beans. Dessert toffee danish chocolate carrot cake
-    dessert sweet lemon drops. Jelly croissant powder muffin chocolate cake
-    cake. Jelly chocolate cotton candy jelly-o tootsie roll lollipop. Jujubes
-    powder jujubes sweet roll jujubes pudding gummi bears powder chocolate cake.
-    Jelly beans gummies toffee pudding cupcake chupa chups wafer cookie
-    shortbread.
+    I also have experience with technical and semi-technical writing, including
+    legal briefs. I pride myself on being able to explain things clearly, making
+    complicated ideas easier to understand, and crafting sound, convincing
+    arguments to support my points. I have written some longer work (software
+    user manuals), but they're not online, so I can't link to them.
   </p>
+  <h2>Fiction</h2>
+  <div class="item">
+    <a href="writings/waves.html"> Waves </a> A fable, and part of a series of stories
+    starring the Devil.
+  </div>
+  <div class="item">
+    <a href="https://odessa-journal.com/wild-odessa-our-rare-bird/">
+      Wild Odessa: Our Rare Bird
+    </a> An article I wrote about "costume birds" for an online journal in Odessa,
+    Ukraine. I wrote it for April Fools' Day, which is traditionally a big deal in
+    Odessa.
+  </div>
+  <div class="item">
+    <a href="writings/the_great_green_tomato.html">The Great Green Tomato</a>
+    A short fable I wrote for a class I was teaching.
+  </div>
+  <div class="item">
+    <a href="https://odessa-journal.com/wild-odessa-our-rare-bird/">
+      Wild Odessa: Our Rare Bird
+    </a> is something I wrote for an online journal in Odessa, Ukraine. I wrote it
+    for April Fools' Day, which is traditionally a big deal in Odessa.
+  </div>
+  <h2>Poetry</h2>
+  <div class="item">
+    <a href="writings/the_day_of_the_week_diet.html">The Day-of-the-week Diet</a
+    >
+  </div>
+  <div class="item">
+    <a href="writings/i_love_penguins.html">I Love Penguins</a> A short, comic poem
+    I wrote for a class I was teaching. I was trying to encourage my students to
+    look at tradtional, rhyming poetry to help improve their English.
+  </div>
+  <div class="item">
+    <a href="writings/i_love_penguins.html">I Love Penguins</a> A short, comic poem
+    I wrote for a class I was teaching. I was trying to encourage my students to
+    look at tradtional, rhyming poetry to help improve their English.
+  </div>
 </div>
 
 <style>
   #writing {
     grid-area: overlap;
-    background-color: rgba(45, 45, 45, 0.8);
+    background-color: rgba(45, 45, 45, 0.85);
     height: fit-content;
-    padding: 1em 2em;
+    padding: 1em 3em;
     border-radius: 0.3em;
   }
 </style>

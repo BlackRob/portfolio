@@ -3,22 +3,19 @@
   // layerNumber is 10 less than the z-index for content layers
   const layerNumber = 4;
 
-  let currentState = 0;
+  let currentState = parseInt(window.sessionStorage.getItem("currentState"));
 
   function changeState(viewState) {
     if (viewState === layerNumber) {
       if (viewState === currentState) {
         return "visible";
       } else {
-        currentState = viewState;
         return "show";
       }
     } else {
       if (currentState != layerNumber) {
-        currentState = viewState;
         return "hidden";
       } else {
-        currentState = viewState;
         return "hide";
       }
     }
@@ -44,16 +41,25 @@
     understand how computers work and how programs should be structured. But
     I've never had the regular, day-to-day experience of working at a software
     company. Because I've never had that experience, I never became an expert at
-    any one thing.
+    any one thing. So I do have some weaknesses as a developer.
+  </p>
+  <p>
+    <i>On the other hand</i>... I'm phenomenal at working as part of a team. I
+    get along with everyone, can give people honest feedback without hurting
+    their feelings, have strong enough technicals that I can understand why a
+    problem should be solved in a particular way, and am an above average
+    communicator. It's a lot easier for a motivated team-player to pick up the
+    technical skills than for someone with good technicals but poor people
+    skills to learn to work well with others.
   </p>
 </div>
 
 <style>
   #about {
     grid-area: overlap;
-    background-color: rgba(45, 45, 45, 0.8);
+    background-color: rgba(45, 45, 45, 0.85);
     height: fit-content;
-    padding: 1em 2em;
+    padding: 1em 3em;
     border-radius: 0.3em;
   }
 </style>

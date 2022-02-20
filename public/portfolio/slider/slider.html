@@ -1,0 +1,120 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Slider Puzzle</title>
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="./slider.css"/>
+</head>
+<body>
+
+<div class="container">
+    <nav class="row navbar navbar-expand-sm bg-dark navbar-dark" id="titleRow">
+        <a href="#" class="navbar-brand">Slider Puzzle</a>
+            <button class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation" id="navButton">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarCollapse">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" data-toggle="modal" data-target= "#customizeModal">Options</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" data-toggle="modal" data-target= "#aboutModal">About</a>
+                    </li>
+                </ul>
+            </div>
+            <!-- Modals -->
+            <div class="modal fade" id="customizeModal" tabindex="-1" role="dialog" aria-labelledby="customizationModal" aria-hidden="true">
+                <div class="modal-dialog" role="document">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h4 class="modal-title" id="customizationModal">Options</h4>
+                        </div>
+                        <div class="modal-body">
+                            <form id="modalForm">
+                                <div class="form-group">
+                                    <label for="chooseImg">Select Puzzle Image</label>
+                                    <select name="newImage" id="imgSelector" class="form-control">
+                                        <option value="./simpsons-couch.jpg">Simpsons</option>
+                                        <option value="./wonderwoman.jpg">Wonder Woman</option>
+                                        <option value="./lolcats.jpg">Laugh Out Loud Cats</option>
+                                        <option value="./krazykat.jpg">Krazy Kat</option>
+                                        <option value="./bugsanddaffy.jpg">Bugs and Daffy</option>
+                                        <option value="./pumpkins.png">David S. Pumpkins</option>
+                                    </select>
+                                </div>
+                                <div class="form-group" id="puzzleSizeFormLabel">
+                                    <label>Puzzle Size</label>
+                                </div>
+                                <div class="form-check form-check-inline">
+                                    <label class="form-check-label">
+                                    <input class="form-check-input" type="radio" name="inlineRadioOptions" id="threethree" value=3> 3x3
+                                    </label>
+                                </div>
+                                <div class="form-check form-check-inline">
+                                    <label class="form-check-label">
+                                    <input class="form-check-input" type="radio" name="inlineRadioOptions" id="fourfour" value=4> 4x4
+                                    </label>
+                                </div>
+                                <div class="form-check form-check-inline">
+                                    <label class="form-check-label">
+                                    <input class="form-check-input" type="radio" name="inlineRadioOptions" id="fivefive" value=5> 5x5
+                                    </label>
+                                </div>
+                            </form>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                            <button type="button" onclick="customize()" class="btn btn-primary">Apply changes</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="modal fade" id="aboutModal" tabindex="-1">
+                <div class="modal-dialog" role="document">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h4 class="modal-title">About...</h4>
+                        </div>
+                        <div class="modal-body">
+                            <h5 class="modal-title">This game</h5>
+                            <p>When you press start, the picture is broken into tiles that are semi-randomly arranged in a grid. One piece is missing. Click on a piece above/below or left/right of the missing piece. The piece you clicked will slide into the empty spot. Continue until you have all the pieces in order, and you will be rewarded with the missing piece. Yeah!</p>
+                            <h5 class="modal-title">This page</h5> 
+                            <p>I had a couple of these slider puzzles when I was a kid. They had superheroes on them. I thought it would be a fun/suitably difficult challenge to recreate the puzzle while teaching myself javascript.</p>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-dismiss="modal" data-toggle="collapse" data-target=".navbar-collapse.show">Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    <div class="row" id="gameRow">
+        <!-- javascript inserts game pieces here -->
+    </div>
+    <div class="row text-center bg-dark navbar-dark align-items-center" id="footerRow">
+        <div class="col" id="footerL">
+            <span class="pseudo-btn" id="moves">MOVES: 0</span>
+        </div>
+        <div class="col-5 d-none d-md-block" id="footerM">
+            <div class="navbar-brand" id="winner">
+                <!-- javascript inserts a message here if you win -->
+            </div>
+        </div>
+        <div class="col" id="footerR">
+            <button id="start" type="button" onclick="start()" class="btn btn-primary">START</button>
+        </div>
+    </div>
+</div>
+
+<!-- javascript files for bootstrap 4 to work -->
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js" integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js" integrity="sha384-h0AbiXch4ZDo7tp9hKZ4TsHbi047NrKGLO3SEJAg45jXxnGIfYzk4Si90RDIqNm1" crossorigin="anonymous"></script>
+<!-- link to a local javascript file -->
+<script type="text/javascript" src="./slider.js"></script>
+</body>
+</html>

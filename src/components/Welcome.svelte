@@ -3,7 +3,7 @@
   // layerNumber is 10 less than the z-index for content layers
   const layerNumber = 0;
 
-  let currentState = 0;
+  let currentState = parseInt(window.sessionStorage.getItem("currentState"));
 
   function changeState(viewState) {
     if (viewState === layerNumber) {
@@ -26,31 +26,32 @@
 </script>
 
 <div id="welcome" class={changeState(viewState)}>
-  <h1>Hi.</h1>
+  <h1>Hi!</h1>
   <p>
-    Sesame snaps jelly-o candy muffin sweet. Marzipan gummies bear claw pudding
-    dragée. Chocolate cake cake danish icing bear claw. Soufflé carrot cake
-    macaroon toffee icing cake. Shortbread sugar plum chocolate cake cotton
-    candy sweet soufflé. Brownie sweet chocolate cake wafer brownie toffee
-    pudding sugar plum. Tart tiramisu sweet gingerbread cake tiramisu bear claw.
-    Gummi bears tiramisu toffee caramels powder cake sweet roll carrot cake.
-    Marshmallow danish sweet sugar plum gummi bears biscuit pastry. Jujubes
-    cotton candy sweet tiramisu brownie chocolate bar. Chocolate cake bear claw
-    bear claw danish jelly beans. Dessert toffee danish chocolate carrot cake
-    dessert sweet lemon drops. Jelly croissant powder muffin chocolate cake
-    cake. Jelly chocolate cotton candy jelly-o tootsie roll lollipop. Jujubes
-    powder jujubes sweet roll jujubes pudding gummi bears powder chocolate cake.
-    Jelly beans gummies toffee pudding cupcake chupa chups wafer cookie
-    shortbread.
+    Welcome to my online portfolio! This is where I put things I've written and
+    coded. I'm more of a writer than a programmer, but I have some skill at both
+    so I'm including both here.
+  </p>
+  <p>
+    It's usually considered impolite to brag about yourself, but that's kind of
+    the point of a portfolio: "look at me, I'm special". So since we're here,
+    let me just say it: I am special. I'm clever and creative, I have a sense of
+    humor. I'm a generalist, not a specialist. I know more than enough aobut a
+    lot of things, but I'm not an expert in anything. In the job market that's
+    generally a disadvantage, but I consider it a strength. It lets me look at
+    problems from different angles instead of just the one I'm used to. To
+    paraphrase an old cliche, if you're a hammer expert, every problem looks
+    like a nail. Well, I may not be the best at hammers, but I can swing one,
+    and I know a screw when I see one, too.
   </p>
 </div>
 
 <style>
   #welcome {
     grid-area: overlap;
-    background-color: rgba(45, 45, 45, 0.8);
+    background-color: rgba(45, 45, 45, 0.85);
     height: fit-content;
-    padding: 1em 2em;
+    padding: 1em 3em;
     border-radius: 0.3em;
   }
 </style>

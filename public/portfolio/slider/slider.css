@@ -1,0 +1,81 @@
+/*  colors to use
+D9D9D9 grey to match my image
+2f1847 dark blue
+456990 light blue
+624763 dark lavender
+c62e65 fuschia
+*/
+body {
+    background-color: #624763;
+  }
+.col { 
+    border: 0px solid transparent;  
+}
+#gameCol {
+    padding: 0;
+}
+.container {
+    max-width: 80vmin;
+    margin-top: 5vmin;
+    box-shadow: 1px 3px 10px #373737;
+}
+
+#titleRow {
+    border: 0.2rem solid black;
+}
+
+#puzzleSizeFormLabel {
+    margin-bottom: 0;
+}
+
+#gameRow {
+    background-color:#bdc1c5;
+    text-align: center;
+    border: 0.2rem solid black;
+    border-top: 0;
+    padding: 6px;
+}
+
+#footerRow {
+    border: 0.2rem solid black;
+    border-top: 0;
+    padding: 6px;
+}
+/* styled to look like .btn but w/o active states */
+ .pseudo-btn { 
+     display: inline-block;
+     border: 1px solid transparent;
+     padding: .5rem .75rem;
+     line-height: 1.25;
+     border-radius: .25rem;
+     color: #fff;
+     background-color: #456990;
+     padding: .5rem .2rem;
+ }
+ .btn-primary {
+    background-color: #456990;
+    border-color: #456990;
+ }
+
+.pieces {   
+    background-color: #000000;
+    border: 1px solid transparent;    
+}
+#moves, #start {
+    width: 110px;
+}
+#winner {
+    margin-right: 0;
+}
+/* a workaround for an issue I haven't figured out:
+   when I set my column padding to zero, all my cols
+   shrink to zero, search Flexbug #11 */
+.basis33 {
+    flex: 1 0 33%;
+}
+.basis25 {
+    flex: 1 0 25%;
+}
+.basis20 {
+    flex: 1 0 20%;
+}

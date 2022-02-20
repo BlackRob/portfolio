@@ -6,7 +6,14 @@
   {#if viewState === 0}
     <button disabled> Robert Austin </button>
   {:else}
-    <button on:click={() => (viewState = 0)}> Robert Austin </button>
+    <button
+      on:click={() => {
+        viewState = 0;
+        window.sessionStorage.setItem("currentState", "0");
+      }}
+    >
+      Robert Austin
+    </button>
   {/if}
 </div>
 
