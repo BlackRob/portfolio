@@ -28,17 +28,17 @@
   <p>
     40-something-year-old American with degrees in Computer Engineering and
     English Literature. I primarily consider myself a writer, but I've also been
-    a teacher, tutor, engineer, clerk, surveyor, proofreader, editor, laborer
-    and a cook. I'm good at the creative stuff and problem solving, not great at
-    doing what I'm told—but I'm trying to get better at that. I like gardening
-    and making things. Currently traveling.
+    a teacher, tutor, engineer, clerk, surveyor, proofreader, editor, laborer,
+    builder and a cook. I'm good at the creative stuff and problem solving, not
+    great at following orders. I like gardening and making things. Currently
+    traveling.
   </p>
   <p>
     I don't use much social media, but <a
       href="https://www.instagram.com/black_robert/">I am on instagram</a
     >.
   </p>
-  <h2>My history as a "developer'</h2>
+  <h2>My history as a 'developer'</h2>
   <p>
     I made my first website in 2001. I took my first computer science course in
     2003. Since then, I've continued dabbling in programming, learning how to do
@@ -61,9 +61,10 @@
   <p>
     I have an email address, <a href="mailto:email@robert.w.austin@gmail.com"
       >robert.w.austin@gmail.com</a
-    >, and can also be found on WhatsApp and Telegram via my US phone numer, +1
+    >, and can also be found on WhatsApp and Telegram via my US phone number, +1
     313 529 45 43.
   </p>
+  <br />
 </div>
 
 <style>
@@ -71,7 +72,7 @@
     grid-area: overlap;
     background-color: rgba(45, 45, 45, 0.85);
     height: fit-content;
-    padding: 1em 3em;
+    padding: 1em min(5em, 3vw) 1em min(5em, 3vw);
     border-radius: 0.3em;
   }
 </style>

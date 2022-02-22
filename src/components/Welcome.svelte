@@ -40,11 +40,11 @@
     ideas man, a problem solver and an outside-the-box thinker.
   </p>
   <p>
-    I'm a also generalist, not a specialist. I know more than enough about a lot
+    I'm also a generalist, not a specialist. I know more than enough about a lot
     of things, but I'm not an expert in any one thing. In the job market that's
     generally a disadvantage, but I consider it a strength. It lets me look at
     problems from different angles instead of just the one I'm used to. To
-    paraphrase an old cliche, if you're a hammer expert, every problem looks
+    paraphrase an old cliché, if you're a hammer expert, every problem looks
     like a nail. Well, I may not be the best at hammers, but I can swing one,
     and I can recognize a screw when I see one, too.
   </p>
@@ -55,6 +55,7 @@
       >robert.w.austin@gmail.com</a
     >.
   </p>
+  <br />
 </div>
 
 <style>
@@ -62,7 +63,7 @@
     grid-area: overlap;
     background-color: rgba(45, 45, 45, 0.85);
     height: fit-content;
-    padding: 1em 3em;
+    padding: 1em min(5em, 3vw) 1em min(5em, 3vw);
     border-radius: 0.3em;
   }
 </style>

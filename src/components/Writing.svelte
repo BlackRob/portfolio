@@ -85,6 +85,10 @@
   <div class="item">
     <a href="writings/i_love_penguins.html">I Love Penguins</a>
   </div>
+  <div class="item">
+    <a href="writings/bananas.html">A Sonnet About Bananas</a>
+  </div>
+  <br />
 </div>
 
 <style>
@@ -92,7 +96,7 @@
     grid-area: overlap;
     background-color: rgba(45, 45, 45, 0.85);
     height: fit-content;
-    padding: 1em 3em;
+    padding: 1em min(5em, 3vw) 1em min(5em, 3vw);
     border-radius: 0.3em;
   }
 </style>

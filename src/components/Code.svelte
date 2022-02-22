@@ -106,6 +106,7 @@
       >
     </p>
   </div>
+  <br />
 </div>
 
 <style>
@@ -113,7 +114,7 @@
     grid-area: overlap;
     background-color: rgba(45, 45, 45, 0.85);
     height: fit-content;
-    padding: 1em 3em;
+    padding: 1em min(5em, 3vw) 1em min(5em, 3vw);
     border-radius: 0.3em;
   }
 </style>

@@ -112,13 +112,13 @@
     width: 100%;
     max-width: 1080px;
     min-height: 10em;
-    padding: 1em 3em 1em 3em;
+    padding: 1em min(5em, 3vw) 1em min(5em, 3vw);
   }
 
   #content {
     margin: 4em 0em 0em 0em;
     position: relative;
-    padding: 1em 5em 1em 5em;
+    padding: 1em min(5em, 3vw) 1em min(5em, 3vw);
     height: fit-content;
     display: grid;
     grid-template-columns: 100%;
