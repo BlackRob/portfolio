@@ -28,10 +28,15 @@
   <p>
     40-something-year-old American with degrees in Computer Engineering and
     English Literature. I primarily consider myself a writer, but I've also been
-    a teacher, tutor, engineer, clerk, surveyor, cook. I'm good at the creative
-    stuff and problem solving, not great at doing what I'm told—but I'm trying
-    to get better at that. I like gardening and making things. Currently
-    traveling.
+    a teacher, tutor, engineer, clerk, surveyor, proofreader, editor, laborer
+    and a cook. I'm good at the creative stuff and problem solving, not great at
+    doing what I'm told—but I'm trying to get better at that. I like gardening
+    and making things. Currently traveling.
+  </p>
+  <p>
+    I don't use much social media, but <a
+      href="https://www.instagram.com/black_robert/">I am on instagram</a
+    >.
   </p>
   <h2>My history as a "developer'</h2>
   <p>
@@ -46,11 +51,18 @@
   <p>
     <i>On the other hand</i>... I'm phenomenal at working as part of a team. I
     get along with everyone, can give people honest feedback without hurting
-    their feelings, have strong enough technicals that I can understand why a
-    problem should be solved in a particular way, and am an above average
-    communicator. It's a lot easier for a motivated team-player to pick up the
-    technical skills than for someone with good technicals but poor people
-    skills to learn to work well with others.
+    their feelings, have strong enough technical skills that I can understand
+    why a problem should be solved in a particular way, and am an above
+    average-communicator. It's a lot easier for a motivated team player to
+    improve their technical skills than for someone with good technicals but
+    poor people skills to learn to work well with others.
+  </p>
+  <h2>Contacting me</h2>
+  <p>
+    I have an email address, <a href="mailto:email@robert.w.austin@gmail.com"
+      >robert.w.austin@gmail.com</a
+    >, and can also be found on WhatsApp and Telegram via my US phone numer, +1
+    313 529 45 43.
   </p>
 </div>
 

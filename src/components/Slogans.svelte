@@ -1,9 +1,12 @@
 <div id="slogans">
-  <div class="sloganLeft">See a problem,<br />solve a problem</div>
-  <div class="sloganCenter">JOAT</div>
-  <div class="sloganRight">
-    <strong>F</strong>ix <strong>T</strong>he <strong>W</strong>orld
+  <div class="sloganLeft" />
+  <div class="sloganCenter">
+    This site was designed and coded by me,<br />
+    using the <a href="https://svelte.dev/">Svelte</a> framework.<br />
+    Unless stated otherwise, I still own <br />
+    the copyright to everything here.
   </div>
+  <div class="sloganRight" />
 </div>
 
 <style>
@@ -29,6 +32,7 @@
     grid-area: center;
     align-self: center;
     justify-self: center;
+    text-align: center;
   }
   .sloganRight {
     margin: 0;

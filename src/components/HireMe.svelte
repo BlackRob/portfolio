@@ -39,15 +39,18 @@
       proofread/edit/doctor your written work (almost everything is better after
       a second set of eyes has gone over it)
     </li>
-    <li>work with React or Svelte for frontend development</li>
+    <li>proofreading, editing and refining legal briefs</li>
     <li>write and edit HTML and CSS</li>
+    <li>work with React or Svelte for frontend development</li>
     <li>critique business plans</li>
     <li>consult on major life decisions</li>
   </ul>
   <p>
     If you have a need for any of the above services, please don't hesitate to
-    contact me at robert.w.austin@gmail.com, or you can find me on Telegram or
-    WhatsApp under my American phone number, +1 313 529 45 43.
+    contact me at <a href="mailto:email@robert.w.austin@gmail.com"
+      >robert.w.austin@gmail.com</a
+    >, or you can find me on Telegram or WhatsApp under my American phone
+    number, +1 313 529 45 43.
   </p>
 </div>
 

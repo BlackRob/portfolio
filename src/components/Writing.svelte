@@ -67,20 +67,23 @@
     </a> is something I wrote for an online journal in Odessa, Ukraine. I wrote it
     for April Fools' Day, which is traditionally a big deal in Odessa.
   </div>
+  <div class="item">
+    <a
+      href="https://www.amazon.com/Goblin-King-Monsters-York-Book-ebook/dp/B07D7Y3B67/ref=sr_1_49?crid=1HKHZ13KXJGYH&keywords=the+goblin+king&qid=1645521084&s=digital-text&sprefix=the+goblin+king%2Cdigital-text%2C217&sr=1-49"
+      >The Goblin King</a
+    >
+    I wrote a novel, published it to the Kindle store, then decided I wasn't happy
+    with it, so I never did even the first thing to promote it. Might go back and
+    fix it some day. It has some good points, but also some flaws. I had plans to
+    continue the story.
+  </div>
   <h2>Poetry</h2>
   <div class="item">
     <a href="writings/the_day_of_the_week_diet.html">The Day-of-the-week Diet</a
     >
   </div>
   <div class="item">
-    <a href="writings/i_love_penguins.html">I Love Penguins</a> A short, comic poem
-    I wrote for a class I was teaching. I was trying to encourage my students to
-    look at tradtional, rhyming poetry to help improve their English.
-  </div>
-  <div class="item">
-    <a href="writings/i_love_penguins.html">I Love Penguins</a> A short, comic poem
-    I wrote for a class I was teaching. I was trying to encourage my students to
-    look at tradtional, rhyming poetry to help improve their English.
+    <a href="writings/i_love_penguins.html">I Love Penguins</a>
   </div>
 </div>
 
