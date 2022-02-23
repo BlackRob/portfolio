@@ -27,3 +27,20 @@ body {
   max-width: fit-content;
   margin: 0 auto;
 }
+
+.img_w_text {
+  display: flex;
+  width: 100%;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: center;
+  column-gap: 5%;
+}
+
+.stanzas {
+  width: 57%;
+}
+
+img {
+  width: 38%;
+}

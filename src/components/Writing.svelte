@@ -51,21 +51,19 @@
     starring the Devil.
   </div>
   <div class="item">
-    <a href="https://odessa-journal.com/wild-odessa-our-rare-bird/">
-      Wild Odessa: Our Rare Bird
-    </a> An article I wrote about "costume birds" for an online journal in Odessa,
-    Ukraine. I wrote it for April Fools' Day, which is traditionally a big deal in
-    Odessa.
-  </div>
-  <div class="item">
-    <a href="writings/the_great_green_tomato.html">The Great Green Tomato</a>
-    A short fable I wrote for a class I was teaching.
+    <a href="writings/the_gingerfolk_ball.html"> The Gingerfolk Ball </a> A rhyming
+    story about how gingerbread cookies come to life and have a party on New Year's
+    Day. Excerpt.
   </div>
   <div class="item">
     <a href="https://odessa-journal.com/wild-odessa-our-rare-bird/">
       Wild Odessa: Our Rare Bird
     </a> is something I wrote for an online journal in Odessa, Ukraine. I wrote it
     for April Fools' Day, which is traditionally a big deal in Odessa.
+  </div>
+  <div class="item">
+    <a href="writings/the_great_green_tomato.html">The Great Green Tomato</a>
+    A short story I wrote for a class I was teaching.
   </div>
   <div class="item">
     <a
@@ -77,7 +75,7 @@
     fix it some day. It has some good points, but also some flaws. I had plans to
     continue the story.
   </div>
-  <h2>Poetry</h2>
+  <h2>Poems</h2>
   <div class="item">
     <a href="writings/the_day_of_the_week_diet.html">The Day-of-the-week Diet</a
     >
@@ -87,6 +85,9 @@
   </div>
   <div class="item">
     <a href="writings/bananas.html">A Sonnet About Bananas</a>
+  </div>
+  <div class="item">
+    <a href="writings/gingerpendence_day.html">Gingerpendence Day</a>
   </div>
   <br />
 </div>

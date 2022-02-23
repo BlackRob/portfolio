@@ -1,10 +1,11 @@
 <div id="slogans">
   <div class="sloganLeft" />
   <div class="sloganCenter">
-    This site was designed and coded by me,<br />
-    using the <a href="https://svelte.dev/">Svelte</a> framework.<br />
-    Unless stated otherwise, I still own <br />
-    the copyright to everything here.
+    This site was designed and coded by me, using the <a
+      href="https://svelte.dev/">Svelte</a
+    >
+    framework.<br />
+    Unless stated otherwise, I still own the copyright to everything here.
   </div>
   <div class="sloganRight" />
 </div>
