@@ -31,7 +31,7 @@
     >
       Why Articles Matter: A Native Listener's Perspective
     </a> An article I wrote for an English school I was working at. I tried to explain
-    why proper usage of definite and indefinite articles is important in English.
+    why proper use of definite and indefinite articles is important in English.
   </div>
   <div class="item">
     <a href="http://workingclasshouses.com"> workingclasshouses.com </a> A blog I
