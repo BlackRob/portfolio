@@ -52,8 +52,7 @@
     <i>On the other hand</i>... I'm phenomenal at working as part of a team. I
     get along with everyone, can give people honest feedback without hurting
     their feelings, have strong enough technical skills that I can understand
-    why a problem should be solved in a particular way, and am an above
-    average-communicator. It's a lot easier for a motivated team player to
+    why a problem should be solved in a particular way, and am an above-average communicator. It's a lot easier for a motivated team player to
     improve their technical skills than for someone with good technicals but
     poor people skills to learn to work well with others.
   </p>
