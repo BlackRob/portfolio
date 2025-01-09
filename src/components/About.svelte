@@ -35,7 +35,7 @@
   </p>
   <p>
     I don't use much social media, but <a
-      href="https://www.instagram.com/black_robert/">I am on instagram</a
+      href="https://www.instagram.com/robert.w.austin/">I am on instagram</a
     >.
   </p>
   <h2>My history as a 'developer'</h2>
